@@ -13,6 +13,6 @@ https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.0.0-beta.4
 import pytesseract
 from PIL import Image
 pytesseract.pytesseract.tesseract_cmd = 'Tesseract-OCR/tesseract.exe'
-a=pytesseract.image_to_string(Image.open('resim/captcha.png'), lang='tur')
+a=pytesseract.image_to_string(Image.open('resim/asd.png'), lang='tur')
 
 print(a)

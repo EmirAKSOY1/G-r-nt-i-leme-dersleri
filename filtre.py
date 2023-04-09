@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('resim/yol.jpeg')
+img = cv2.imread('resim/benekli.png')
 
 median = cv2.medianBlur(img, 11)
 Blur = cv2.GaussianBlur ( median , ( 11 , 11 ) , cv2.BORDER_DEFAULT )
